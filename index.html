@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prov</title>
+    <style>
+      .posts-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      @media (min-width: 768px) {
+        .posts-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="photos"></div>
+    <div id="posts" class="posts-grid"></div>
+
+    <script src="question1.js"></script>
+    <script src="question2.js"></script>
+    <script src="question3.js"></script>
+    <script src="question4a.js"></script>
+    <script src="question4b.js"></script>
+    <script src="question4c.js"></script>
+    <script src="question5.js"></script>
+    <script src="question6.js"></script>
+  </body>
+</html>
